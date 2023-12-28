@@ -1,0 +1,27 @@
+
+.input-feild{
+  padding: 10px 5px;
+  font-size: 15px;
+}
+button{
+  padding: 13px 37px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 2px;
+  align-items: center;
+  text-align: center;
+}
+#todo-table{
+  text-align: center;
+}
+.js-todo{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  row-gap: 10px;
+  margin-top: 5px;
+  align-items: center;
+}
+.btn-delete{
+  background-color: red;
+  padding: 13px 26px;
+}
