@@ -10,6 +10,7 @@ button{
   margin: 2px;
   align-items: center;
   text-align: center;
+  background-color: lightgreen;
 }
 #todo-table{
   text-align: center;
