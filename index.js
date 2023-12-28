@@ -12,6 +12,10 @@ let todo_list=JSON.parse(localStorage.getItem('todo_list')) || [];
 add_todos=()=>{
   todo.name=text_inp.value;
   todo.date=date_inp.value;
+  if(todo.name===''){
+    alert("need name");
+    return;
+  }
   todo_list.push(JSON.parse(JSON.stringify(todo)));
   console.log(todo_list);
   new_todo=todo_list[todo_list.length-1];
